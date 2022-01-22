@@ -1,0 +1,67 @@
+body {
+    background-color: gray;
+    color: crimson;
+    font-family: 'Consolas';
+    font-size: larger;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+  padding: 50px 50px;
+  text-align: center;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  font-family: 'Consolas', sans-serif;
+}
+
+.navstd {
+  float: left;
+}
+.navalt {
+  float: right;
+}
+
+.navstd a, .navalt a  {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navstd a:hover, .navalt a:hover, .navimg:hover {
+  background-color: black;
+}
+
+.navimg {
+  text-align: center;
+  float: right;
+  padding: 6px 14px;
+  object-fit: scale-down;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.fa-github {
+  color: white;
+  font-size: 39px;
+}
+
+.fa-patreon {
+    color: #f96854;
+    font-size: 39px;
+}
+
+.fa-discord {
+    color: #7289da;
+    font-size: 39px;
+}
