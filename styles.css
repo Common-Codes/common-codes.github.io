@@ -1,13 +1,13 @@
 body {
-    background-color: gray;
-    color: crimson;
+    background-color: rgb(69, 69, 69);
+    color: white;
     font-family: 'Consolas';
     margin: 0;
     padding: 0;
 }
 
 .content {
-  padding: 50px 50px;
+  padding: 30px 30px;
   text-align: center;
 }
 
@@ -21,7 +21,7 @@ body {
 }
 
 .navstd {
-  padding: 6px 14px;
+  padding: 14px 6px 14px 6px;
   float: left;
 }
 .navalt {
@@ -32,7 +32,7 @@ body {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 3px 14px 3px;
   text-decoration: none;
 }
 
@@ -43,7 +43,7 @@ body {
 .navimg {
   text-align: center;
   float: right;
-  padding: 6px 14px;
+  padding: 14px 6px 14px 4px;
   object-fit: scale-down;
 }
 
@@ -67,5 +67,10 @@ body {
 }
 
 .module {
-  border: 2px dashed;
+  border: 3px dashed red;
+  color: white;
+}
+
+.module a {
+  color: aqua;
 }

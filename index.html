@@ -23,7 +23,7 @@
                 </li>
                 <li class="navimg">
                     <a href="https://ko-fi.com/commoncodes">
-                        <img class="fab fa-kofi" style="width: 39px; height: 39px;" src="https://storage.ko-fi.com/cdn/brandasset/kofi_s_logo_nolabel.png" aria-hidden="true"></img>
+                        <img class="fab fa-kofi" style="width: 39px; height: 34px;" src="https://storage.ko-fi.com/cdn/brandasset/kofi_s_logo_nolabel.png" aria-hidden="true"></img>
                     </a>
                 <li class="navimg">
                     <a href="https://patreon.com/V1RU5">
@@ -46,29 +46,31 @@
         <div class="logososo">
             <h1>Common-Codes</h1>
             <h3>For the Most Common of Codes :\</h3>
-            <progress id="progresss" min="2" max="100"></progress>
+            <progress id="progresss" min="1" max="100"></progress>
         </div>
         <br>
-        <div style="text-align: left;" class="continuity">
+        <div style="text-align: left;">
             <h2>About</h2>
-            <pre style="font-size: 14px; font-weight: 400;">We are Common-Codes; probably the worst team of developers in the world.
-    We make code held together with cheap, low-quality tape.
-        And it doesn't usually stay stuck together.
-            </pre>
+            <p style="font-size: 14px; font-weight: 400;">We are Common-Codes; probably the <i>weirdest</i> team of developers in the world.</p>
+            <p style="font-size: 14px; font-weight: 400;">We make code held together with cheap, low-quality tape.</p>
+            <p style="font-size: 14px; font-weight: 400;">And it doesn't usually stay stuck together.</p>
+            <br>
+            <h2>What we do</h2>
+            <p>We create... absolutely <i>nothing</i> unique, new or well... different...</p>
+            <p>Head over to our <a style="color: aquamarine;" href="/projects/">projects page</a> to find out what we've made!</p>
         </div>
     </div>
 
     <script type="text/javascript">
         var k = 0;
         var progb = document.getElementById("progresss");
-        function count(){
-        if(k < 100){
-        k = k + 1;
-        progb.value = k;
-        //progb.getElementsByTagName("span")[0].textContent = k;
-        }
-        setTimeout("count()", 300);
-        }
+            function count(){
+                if(k < 100){
+                    k = k + 1;
+                    progb.value = k;
+                }
+            setTimeout("count()", 120);
+            }
         count();
         </script>
 
